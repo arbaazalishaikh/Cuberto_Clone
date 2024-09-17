@@ -5,6 +5,11 @@
     font-family: "Matter", "Matter Light", "Robot Flex";
 }
 
+*::selection{
+    color: #fff;
+    background-color: black;
+}
+
 html,
 body {
     width: 100%;
@@ -124,16 +129,34 @@ body {
     overflow: hidden;
     width: 45%;
     height: inherit;
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
 }
 
 .fleft-elem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     height: inherit;
-    background-color: red;
+    /* background-color: red; */
     /* color: black; */
 }
 
+.fleft-elem h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0px;
+}
+
+.fleft-elem h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.fleft-elem h4{
+    opacity: 0.5;
+}
 .fright{
     display: flex;
     align-items: center;
@@ -147,4 +170,33 @@ body {
     width: 90%;
     height: 90%;
     background-color: red;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 1.2vw 2.5vw;
+    border-radius: 100px;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+.dev h1{
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+    /* text-transform: capitalize; */
 }
