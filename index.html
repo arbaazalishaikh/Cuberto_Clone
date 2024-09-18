@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuberto - Clone</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- <link rel="stylesheet" href="https://www.unpkg.com/shery-js@1.0.0-alpha.0.5/dist/Shery.css"> -->
+
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -14,19 +18,19 @@
 
         <div class="home">
             <div class="nav">
-                <img src="./images/cuberto-logo-vector.png" alt="" width="100">
+                <img class="magnet" src="./images/cuberto-logo-vector.png" alt="" width="100">
                 <div class="right">
                     <a href="#">our showreel</a>
                     <a href="#">menu</a>
-                    <i class="ri-menu-line"></i>
+                    <i class="ri-menu-line magnet"></i>
                 </div>
             </div>
             <div class="home-main">
                 <h2>We make it happen</h2>
                 <div class="headings">
-                    <h1>Websites</h1>
-                    <h1>Apps</h1>
-                    <h1>Branding</h1>
+                    <h1 class="hvr">Websites</h1>
+                    <h1 class="hvr">Apps</h1>
+                    <h1 class="hvr">Branding</h1>
                 </div>
             </div>
             <div class="home-last">
@@ -59,19 +63,32 @@
                         <h1>Official website of Riyadh, Saudi Arabia's capital</h1>
                         <h4>design, development, product</h4>
                     </div>
-                    <div class="fleft-elem">
+                    <div class="fleft-elem last">
                         <h3>Riyadh</h3>
                         <h1>Official website of Riyadh, Saudi Arabia's capital</h1>
                         <h4>design, development, product</h4>
                     </div>
                 </div>
                 <div class="fright">
-                    <div class="images"></div>
+                    <div class="images">
+                        <!-- <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt=""> -->
+                        <img src="https://images.unsplash.com/photo-1692343814412-cbe23ff32765?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=767&q=80"
+                            alt="">
+                        <img src="https://images.unsplash.com/photo-1609428079875-ae186c562aff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=689&q=80"
+                            alt="">
+                        <img src="https://images.unsplash.com/photo-1614633833026-0820552978b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+                            alt="">
+                        <img src="https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+                            alt="">
+                    </div>
                 </div>
             </div>
 
             <div class="btn">
-                <button>View all products</button>
+                <button class="magnet">View all products</button>
             </div>
         </div>
 
@@ -107,9 +124,29 @@
         </div>
 
         <div class="btn">
-            <button>View all products</button>
+            <button class="magnet">View all products</button>
         </div>
     </div>
+
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.168.0/three.module.js" integrity="sha512-cV5o5uoKbUWe+4GaJ4Eu/oaZ4IJKh2OhShH7Gwub0OQ6oPgxQxXL++Ih6AJJk70O/JCBhf9nxAm+Hhsx1ddk1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"
+        integrity="sha512-auFmPm+de880vk/c+bgBmuOnQ7BM28z7zPWmepVgX8737t75OHZjElOnQqERwP8cE4DIyCJ+gb1kE0b/eLWcnA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- <script src="https://www.unpkg.com/shery-js@1.0.0-alpha.0.5/dist/Shery.js"></script> -->
+
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
